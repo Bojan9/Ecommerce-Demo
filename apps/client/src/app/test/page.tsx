@@ -13,6 +13,8 @@ const TestPage = async () => {
   // });
   // const dataProduct = await resProduct.json();
 
+  // console.log(dataProduct);
+
 
   // const resOrder = await fetch("http://localhost:8001/test", {
   //   headers: {
@@ -21,6 +23,8 @@ const TestPage = async () => {
   // });
   // const dataOrder = await resOrder.json();
 
+  // console.log(dataOrder);
+
 
   // const resPayment = await fetch("http://localhost:8002/test", {
   //   headers: {
@@ -28,6 +32,8 @@ const TestPage = async () => {
   //   },
   // });
   // const dataPayment = await resPayment.json();
+
+  // console.log(dataPayment);
 
   return <div className="">TestPage</div>;
 };
