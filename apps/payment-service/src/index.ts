@@ -2,6 +2,7 @@ import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 import { clerkMiddleware, getAuth } from '@hono/clerk-auth'
 import { shouldBeUser } from "./middleware/authMiddleware.js";
+import stripe from "./utils/stripe.js";
 
 const app = new Hono();
 
